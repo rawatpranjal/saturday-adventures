@@ -252,6 +252,37 @@ img {
     border: 1px solid var(--accent-rose-light);
 }
 
+/* Read More Links */
+.read-more {
+    margin-top: 20px;
+    padding-top: 15px;
+    border-top: 1px dashed var(--accent-rose-light);
+}
+
+.read-more-label {
+    font-size: 0.9rem;
+    color: var(--text-light);
+    margin-bottom: 8px;
+}
+
+.read-more a {
+    display: inline-block;
+    margin-right: 12px;
+    margin-bottom: 8px;
+    padding: 6px 14px;
+    background: var(--bg-accent);
+    color: var(--accent-rose);
+    text-decoration: none;
+    border-radius: 20px;
+    font-size: 0.85rem;
+    transition: all 0.2s ease;
+}
+
+.read-more a:hover {
+    background: var(--accent-rose);
+    color: white;
+}
+
 .vibe {
     font-family: 'Playfair Display', Georgia, serif;
     font-style: italic;
